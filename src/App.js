@@ -4,9 +4,11 @@ import StatementEntries from './components/StatementEntries';
 
 function App() {
   return (
-    <Box>
-      <StatementEntries />
-    </Box>
+    // <ThemeProvider>
+      <Box>
+        <StatementEntries />
+      </Box>
+    // </ThemeProvider>
   );
 }
 
